@@ -2,6 +2,8 @@
 
 This project is a **narrative visualization** built using [D3.js](https://d3js.org/) that explores trends from Netflix's global Top 10 most-watched shows and films. It uses a **multi-scene interactive slideshow** structure to guide the user through key insights with options to explore.
 
+Website: https://abhiseksinha-r1.github.io/
+
 ## 🔍 Features
 
 - 📊 Multiple data-driven scenes with annotations and transitions
@@ -20,10 +22,9 @@ This project is a **narrative visualization** built using [D3.js](https://d3js.o
 
 ## 📦 How to Use
 
-1. **Download or Clone** this repository.
-2. Open `index.html` in any modern browser (Chrome, Firefox, Edge).
-3. Use the **Previous / Next** buttons to navigate the scenes.
-4. Interact with **dropdown filters** to view trends by category.
+1. Visit my [GitHub Pages](https://abhiseksinha-r1.github.io/).
+2. Use the **Previous / Next** buttons to navigate the scenes.
+3. Interact with **dropdown filters** to view trends by category.
 
 > No server or build process required — this project is 100% client-side.
 
