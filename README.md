@@ -1,47 +1,46 @@
 # Netflix Top 10: A Global Viewing Story
 
-This project is a **narrative visualization** built using [D3.js](https://d3js.org/) that explores trends from Netflix's global Top 10 most-watched shows and films. It uses a **multi-scene interactive slideshow** structure to guide the user through key insights with options to explore.
+Explore global viewing trends with this **interactive narrative visualization** powered by [D3.js](https://d3js.org/). This project visualizes Netflix's Top 10 most-watched shows and films using data from both global and country-specific weekly rankings. Users can interactively explore patterns, compare categories, and gain insights through a multi-scene slideshow.
 
-## 🔍 Features
+## 🚀 Features
 
-- 📊 Multiple data-driven scenes with annotations and transitions
-- 🔄 Interactive filters for exploring different categories (TV, Films, English, Non-English)
-- 📈 Visual elements include area charts, bar charts, scatter plots, and line graphs
-- ✍️ Designed with clear narrative messaging and visual consistency
-- 💡 Highlights cumulative trends, engagement metrics, and top titles
-- 💬 Tooltips, labels, and annotations for user-friendly storytelling
+- **Multi-scene narrative:** Step through key insights with smooth transitions and annotations.
+- **Interactive filters:** Filter by category (TV, Films, English, Non-English) and by country.
+- **Rich visualizations:** Includes area charts, bar charts, scatter plots, and line graphs.
+- **Responsive design:** Works on modern browsers with tooltips, labels, and accessible controls.
+- **No setup required:** 100% client-side—just open `index.html` in your browser.
 
-## 📁 Files
+## 📂 Project Structure
 
-- `index.html`: Main HTML file with embedded CSS and D3 setup
-- `data.tsv`: The dataset used (cleaned from Netflix Top 10)
-- `README.md`: This file
-- *(Optional for your environment: additional `.js` or `.css` files if you separate them)*
+- `index.html` — Main HTML file with embedded CSS and D3.js logic.
+- `all-weeks-global.tsv` — Global weekly Top 10 Netflix data.
+- `country-weekly.tsv` — Country-level weekly Top 10 Netflix data.
+- `README.md` — Project documentation.
 
-## 📦 How to Use
+## 🖥️ Getting Started
 
-1. **Download or Clone** this repository.
-2. Open `index.html` in any modern browser (Chrome, Firefox, Edge).
-3. Use the **Previous / Next** buttons to navigate the scenes.
-4. Interact with **dropdown filters** to view trends by category.
+1. **Clone or download** this repository.
+2. Ensure `index.html`, `all-weeks-global.tsv`, and `country-weekly.tsv` are in the same directory.
+3. Open `index.html` in your web browser.
+4. Use the navigation and filters to explore the data.
 
-> No server or build process required — this project is 100% client-side.
+> No server or build tools needed.
 
 ## 📊 Scenes Overview
 
-1. **Weekly View Trends** – Stacked area chart with category filter
-2. **Cumulative Viewing Hours** – TV vs. Films
-3. **Top 15 Titles** – Filter by category with value labels
-4. **Engagement Analysis** – Views per minute runtime (scatter plot)
-5. **Category Trends** – Annotated line graph with trend line and peak highlight
+1. **Weekly Global Trends:** Stacked area chart with category and country filters.
+2. **Cumulative Viewing Hours:** Compare TV vs. Films globally or by country.
+3. **Top Titles:** Bar chart of the most-watched shows and films.
+4. **Engagement Analysis:** Scatter plot of views per minute runtime.
+5. **Category Trends:** Annotated line graph highlighting trends over time.
 
-## 🛠 Tech Stack
+## 🛠️ Built With
 
 - [D3.js v7](https://d3js.org/)
-- HTML5, CSS3
-- Font: [Roboto](https://fonts.google.com/specimen/Roboto)
-- Data Source: [Netflix Top 10 weekly viewing hours dataset (TSV)](https://top10.netflix.com/) *(archived locally as `data.tsv`)*
+- HTML5 & CSS3
+- [Roboto font](https://fonts.google.com/specimen/Roboto)
+- Data: [Netflix Top 10 weekly viewing hours](https://top10.netflix.com/) (archived as `all-weeks-global.tsv` and `country-weekly.tsv`)
 
-## ✍️ Author
+## 👤 Author
 
-Created by Abhisek Sinha as part of a narrative visualization project.
+Created by Abhisek Sinha for a narrative visualization project.
