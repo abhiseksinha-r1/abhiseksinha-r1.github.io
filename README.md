@@ -1,6 +1,6 @@
 # Netflix Top 10: A Global Viewing Story
 
-Explore global viewing trends with this **interactive narrative visualization** powered by [D3.js](https://d3js.org/). This project visualizes Netflix's Top 10 most-watched shows and films using data from both global and country-specific weekly rankings. Users can interactively explore patterns, compare categories, and gain insights through a multi-scene slideshow.
+ This is a narrative visualization project that combines a clear message, a structured interactive slideshow, scene-specific visual designs, effective annotations, well-defined parameters, and intuitive triggers. It guides users from global patterns to local details, supporting both storytelling and exploration, and exemplifies best practices in narrative visualization design.
 
 ## 🚀 Features
 
@@ -28,19 +28,18 @@ Explore global viewing trends with this **interactive narrative visualization** 
 
 ## 📊 Scenes Overview
 
-1. **Weekly Global Trends:** Stacked area chart with category and country filters.
-2. **Cumulative Viewing Hours:** Compare TV vs. Films globally or by country.
-3. **Top Titles:** Bar chart of the most-watched shows and films.
-4. **Engagement Analysis:** Scatter plot of views per minute runtime.
-5. **Category Trends:** Annotated line graph highlighting trends over time.
+1. **Global Overview:** Introduces the worldwide context, showing which countries have the most prominent titles.
+2. **Regional Favorites:** Highlights differences and similarities in top titles across countries, supporting regional comparison.
+3. **Genre Trends:** Explores the balance between Films and TV, providing insight into content type preferences.
+4. **Language Divide:** Examines the role of language, contrasting English and Non-English content.
+5. **Country Explorer:** Allows users to select any country and see its unique viewing patterns, supporting deep, user-driven exploration.
+
 
 ## 🛠️ Built With
 
 - [D3.js v7](https://d3js.org/)
 - HTML5 & CSS3
-- [Roboto font](https://fonts.google.com/specimen/Roboto)
 - Data: [Netflix Top 10 weekly viewing hours](https://top10.netflix.com/) (archived as `all-weeks-global.tsv` and `country-weekly.tsv`)
 
 ## 👤 Author
-
 Created by Abhisek Sinha for a narrative visualization project.
